@@ -16,7 +16,6 @@ const Deck = ({
   onSwipeLeft,
   renderNoMoreCards
 }) => {
-  // const pos = new Animated.ValueXY();
   const [pos, setPos] = useState(new Animated.ValueXY());
   // used to animate smooth transition of the rest of the deck
   const [pos2, setPos2] = useState(new Animated.ValueXY());
