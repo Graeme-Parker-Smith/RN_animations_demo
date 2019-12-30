@@ -17,7 +17,6 @@ const Deck = ({
   renderNoMoreCards
 }) => {
   const [pos, setPos] = useState(new Animated.ValueXY());
-  // used to animate smooth transition of the rest of the deck
   const [pos2, setPos2] = useState(new Animated.ValueXY());
   const [deckIndex, setDeckIndex] = useState(0);
   const panResponder = useMemo(
